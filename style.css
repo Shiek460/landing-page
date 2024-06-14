@@ -79,3 +79,40 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.information {
+    background-color: whitesmoke;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 3em;
+    padding: 2em;
+    padding-bottom: 8em;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.container {
+    display: flex;
+    gap: 5em;
+}
+
+.info {
+    height: auto;
+    width: 160px;
+}
+
+.box {
+    border: 3px solid #3882f6;
+    height: 160px;
+    border-radius: 1em;
+}
+
+.text {
+    text-align: center;
+    color: #808080;
+}
