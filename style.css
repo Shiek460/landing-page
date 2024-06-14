@@ -8,7 +8,6 @@ body {
 }
 
 .header {
-    background-color: #1f2937;
     color: #f9faf8;
     display: flex;
     justify-content: space-around;
@@ -68,6 +67,7 @@ button {
     font-weight: 900;
     border-radius: .5em;
     border-style: none;
+    margin-top: 7px;
 }
 
 .signup-right {
@@ -136,4 +136,43 @@ button {
     font-weight: 1000;
     align-self: flex-end;
     margin-right: 25%
+}
+
+.c2a {
+    display: flex;
+    background-color: white;
+    color: #f9faf8;
+    justify-content: center;
+}
+
+.c2a-container {
+    background-color: #3882f6;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5em;
+    border-radius: 5px;
+    padding: 2em 6em;
+}
+
+.c2a-button {
+    border: solid 2px #f9faf8;
+}
+
+.c2a-title {
+    font-weight: 900;
+}
+
+.c2a-text {
+    font-weight: 100;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4em;
+    color: #f9faf8;
+    padding-top: 5px;
 }
